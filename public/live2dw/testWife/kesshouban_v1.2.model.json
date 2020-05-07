@@ -1,0 +1,32 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "kesshouban_v1.2",
+	"model": "moc/kesshouban_v1.1.moc",
+	"textures": [
+		"moc/kesshouban_v1.2.4096/texture_00.png"
+	],
+	"hit_areas": [
+		{
+      "name": "body",
+			"id": "shirt_main"
+    }
+	],
+	"layout": {
+    "center_x": -0.2,
+    "y": 1,
+    "width": 1.9
+  },
+"motions":{
+	 "tap_body": [
+			{
+				"file":"mth/Anone_Synced.mtn"
+			},
+			{
+				"file":"mth/Hanasu.mtn"
+			},
+			{
+				"file":"mth/Dance.mtn"
+			}
+	]
+}
+}
