@@ -1,7 +1,4 @@
 <template>
-  <!-- 记住这个神奇的操作，解决渲染问题,数据还未请求结束，页面已经开始渲染了 -->
-  <!-- Error in render: "TypeError: Cannot read property xxx of undefined" -->
-  <!-- v-if使数据加载完再渲染，完美解决问题 -->
   <div class="rightContent" v-if="data!=null"> 
     <div class="box">
       <h3 class="title">{{data.title}}</h3>

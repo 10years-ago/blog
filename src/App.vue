@@ -58,7 +58,7 @@ mounted() {
 .view{
   transition:all 1s;
   overflow-y:hidden;
-  overflow-x:hidden
+  overflow-x:hidden;
 }
 .view_open{
   @extend .view;
